@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>France</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+    <div><img class="img-logo" src="travel-logo.png" alt="Travel Logo">
+    </div>
+    <div class="searchbuttondiv">
+        <button class="searchbutton" type="button" style="float: right;" onclick="doSearch(document.getElementById('inputsearch').value)">Search</button>
+        <input id="inputsearch" type="text" placeholder="Search" style="float: right;" >
+    </div>
+
+    <div class="clean"></div>
+    
+
+
+<div class="outnavbar">
+     <div class="navbar" id="myTopnav">
+        <a class="link" href="index.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="turkey.html">Turkey<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                    <a href="turkey.html#Istanbul">Istanbul</a>
+                    <a href="turkey.html#Izmir">Izmir</a>
+                    <a href="turkey.html#Antalya">Antalya</a>
+                    <a href="turkey.html#Nevsehir">Nevsehir</a>
+                    <a href="turkey.html#Mugla">Mugla</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="france.html">France<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                <a href="france.html#Paris">Paris</a>
+                <a href="france.html#Nice">Nice</a>
+                <a href="france.html#Versailles">Versailles</a>
+                <a href="france.html#Bordeaux">Bordeaux</a>
+                <a href="france.html#Marseilles">Marseilles</a>
+            </div>
+        </div>
+
+         <div class="dropdown">
+            <button class="dropbtn"><a href="italy.html">Italy<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                <a href="italy.html#Rome">Rome</a>
+                <a href="italy.html#Venice">Venice</a>
+                <a href="italy.html#Florence">Florence</a>
+                <a href="italy.html#Milan">Milan</a>
+                <a href="italy.html#Capri">Capri</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="theUSA.html">The USA<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                <a href="theUSA.html#NewYorkCity">New York City</a>
+                <a href="theUSA.html#LasVegas">Las Vegas</a>
+                <a href="theUSA.html#SanFrancisco">San Francisco</a>
+                <a href="theUSA.html#Washington">Washington, D.C.</a>
+                <a href="theUSA.html#LosAngeles">Los Angeles</a>
+                <a href="theUSA.html#Miami">Miami</a>
+            </div>
+        </div>
+        <a class="link" href="contact-us.html">Contact Us</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionNavbar()">&#9776;</a>
+    </div>
+
+  </div>
+
+
+    <div>
+        <p class="explanation">The French affectionately call their beloved homeland "l'Hexagone" because of its distinct six-sided 
+            shape. Each corner of France has its own unique character: the rugged and outdoorsy French Alps; sun-drenched and 
+            slow-paced Provence; the glamorous and gorgeous Côte d'Azur coastline; and idyllic Alsace, a pastoral region where 
+            storybook hamlets are tucked away in the vine-covered rolling hills.</p>
+        <p class="explanation"> Paris and Versailles are must-see destinations for a first trip to France. Other classic travel itineraries include 
+            stops at fashionable seaside resorts, fairy-tale castles, and glorious Gothic cathedrals.</p>
+        <p class="explanation"> More off-the-beaten-path experiences are found in the countryside, such as at farmhouses in Burgundy, fishing 
+            villages in Brittany, and quaint towns in the forests of the Pyrenees Mountains.</p>
+        <p class="explanation">From cultured cities to pristine nature sites, France offers endless tourist attractions. 
+            Discover this fascinating and diverse country with our list of the best places to visit in France.
+        </p>
+    </div>
+
+    <div>
+        <div class="popular-place">
+            <ul> <h4>The Most Popular Places in France</h4>
+                <li>Paris - Eiffel Tower</li>
+                <li>Paris - Musée du Louvre</li>
+                <li>Paris - Arc de triomphe</li>
+                <li>Paris - Disneyland</li>
+                <li>Paris - Cathédrale Notre Dame</li>
+                <li>Paris - Sacré-Cœur</li>
+                <li>Paris - Palace of Fontainebleau</li>
+                <li>Paris - Pantheon</li>
+                <li>Nice - The Côte d'Azur</li>
+                <li>Nice - Promenade des Anglais</li>
+                <li>Nice - Cathedrale Saint-Nicolas</li>
+                <li>Versailles - The Palace of Versailles </li>
+                <li>Versailles - The Hall of Mirrors </li>
+                <li>Versailles - Le Jardin de Versailles </li>
+                <li>Bordeaux - Cathédrale Saint-André</li>
+                <li>Bordeaux - Dune of Pyla</li>
+                <li>Marseilles - Massif des Calanques</li>
+                <li>Marseilles - Le Vieux Port</li>
+            </ul>
+        </div>
+
+        <div class="main-image">
+            <img  class="responsiveimage" src="images-france/eiffel-tower.jpg" alt="Eiffel Tower">
+        </div>
+        <div class="popular-dishes">
+            <ul> <h4>The Most Popular Dishes in France</h4>
+                <li>Croissant</li>
+                <li>Quiche</li>
+                <li>Baguette</li>
+                <li>Macarons</li>
+                <li>Éclair</li>
+                <li>Chocolate Soufflé</li>
+                <li>Bisque</li>
+                <li>Crème Brûlée</li>
+                <li>Ratatouille </li>
+                <li>Bordeaux Wine</li></ul><br>
+
+            <ul><h4>Airline Companies and Hotels</h4></ul>
+                <li><a class="links" href="https://www.skyscanner.net/">Airline - Skyscanner</a></li>
+                <li><a class="links" href="https://www.flypgs.com/en">Airpline - Pegasus</a></li>
+                <li><a class="links" href="https://www.turkishairlines.com/">Airpline - Turkish Airlines</a></li>
+                <li><a class="links" href="https://www.trivago.com/">Hotels - Trivago</a></li>
+                <li><a class="links" href="https://www.wingie.co.uk/">Hotels - Wingie</a></li>
+        </div>
+
+        <div class="clean"></div>
+
+        <div>
+            <div id="Paris">
+                <h2>PARIS</h2>
+                <p class="explanation">Whether sunshine is sparkling on the café terraces of Boulevard Saint-Germain, or melancholy mists of the Seine 
+                    River are shrouding Notre-Dame Cathedral, Paris has a way of romancing visitors. The love affair may begin with a first 
+                    glimpse of the Eiffel Tower, then continue with strolls along the wide tree-lined avenues and in lavish formal gardens.</p>
+                <p class="explanation">Visitors are seduced by the city's beauty. Each neighborhood (quartier) reveals its own distinctive appeal. The Latin 
+                    Quarter is a captivating labyrinth of medieval pedestrian streets and narrow alleyways. The fashionable Champs-Élysées 
+                    buzzes with energy and panache. Outside the center of Paris, Montmartre brims with old-world village charm and flaunts its 
+                    Bohemian past.</p>
+                <p class="explanation">After seeing the museums and monuments, tourists should seek out the small surprises, like family-run bistros with 
+                    handwritten menus; cobblestone lanes full of quaint boutiques; secluded squares adorned with flowing fountains; and 
+                    elegant tea salons, where dainty jewel-like desserts beckon from glass-covered pastry cases.</p>
+                <p class="explanation">In every hidden corner and at all the famous sites, Paris casts a spell of enchantment. One visit may inspire a 
+                    lifelong passion.</p>
+                <p class="explanation">Discover what makes the City of Light so alluring and learn about the fascinating places to explore 
+                    with our list of the top tourist attractions in Paris.Some of the famous places are in Paris :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/eiffel-tower-paris.jpg" alt="Eiffel Tower" style="width:400px;height:280px">
+                    <div class="imageplace">Eiffel Tower</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/louvre-museum.jpg" alt="Louvre Museum" style="width:400px;height:280px">
+                    <div class="imageplace">Musée du Louvre</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/notre-dame-cathedral.jpg" alt="Cathédrale Notre Dame" style="width:400px;height:280px">
+                    <div class="imageplace">Cathédrale Notre Dame</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/disneyland.jpg" alt="Disneyland" style="width:400px;height:280px">
+                    <div class="imageplace">Disneyland</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/arc-de-triomphe.jpg" alt="Arc de Triomphe" style="width:400px;height:280px">
+                    <div class="imageplace">Arc de Triomphe</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/paris-pantheon.jpg" alt="Pantheon" style="width:400px;height:280px">
+                    <div class="imageplace">Pantheon</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/sainte-chapelle.jpg" alt="Sainte Chapelle" style="width:400px;height:280px">
+                    <div class="imageplace">Sainte Chapelle</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/palais-garnier.webp" alt="Palais Garnier" style="width:400px;height:280px">
+                    <div class="imageplace">Palais Garnier</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/sacred-heart.jpg" alt="Sacré-Cœur" style="width:400px;height:280px">
+                    <div class="imageplace">Sacré-Cœur</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/paris-la-conciergerie.jpg" alt="La Conciergerie" style="width:400px;height:280px">
+                    <div class="imageplace">La Conciergerie</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/les-invalides.jpg" alt="Les Invalides" style="width:400px;height:280px">
+                    <div class="imageplace">Les Invalides</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/palace-of-fontainebleau.jpg" alt="Palace of Fontainebleau" style="width:400px;height:280px">
+                    <div class="imageplace">Palace of Fontainebleau</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="Nice">
+                <h2>NICE</h2>
+                <p class="explanation">It is easy to understand why Impressionist painters were drawn to Nice. With its sunny weather and stunning 
+                    Mediterranean scenery, this picturesque city resembles a pastel painting. Surrounded by the serene blue waters of the 
+                    Baie des Anges and sheltered by the foothills of the Maritime Alps, Nice has a mild climate year-round.</p>
+                <p class="explanation">The city was originally discovered in the 1820s by British aristocrats as a winter resort. Today, it is still a popular 
+                    vacation destination. Considered the center of the French Riviera, Nice is the perfect starting point to explore the 
+                    dazzling Côte d'Azur.</p>
+                <p class="explanation">A vacation based in Nice offers the chance to enjoy seaside splendor and to soak up the vibrant urban energy. 
+                    The ambience of a real city pervades the busy avenues, squares, and pedestrian alleyways of Nice, while the vibes of a 
+                    beach resort town give Nice a special quality.
+                    Some of the famous places are in Nice :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/promenade-des-anglais.jpg" alt="Promenade des Anglais" style="width:400px;height:280px">
+                    <div class="imageplace">Promenade des Anglais</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/vieille-ville.jpg" alt="Vieille Ville" style="width:400px;height:280px">
+                    <div class="imageplace">Vieille Ville</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/colline-du-chateau.jpg" alt="Parc de la Colline du Château" style="width:400px;height:280px">
+                    <div class="imageplace">Parc de la Colline du Château</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/musée-masséna.jpg" alt="Musée Masséna" style="width:400px;height:280px">
+                    <div class="imageplace">Musée Masséna</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/matisse_museum.jpg" alt="Musée Matisse" style="width:400px;height:280px">
+                    <div class="imageplace">Musée Matisse</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/cathedrale-saint-nicolas.jpg" alt="Cathedrale Saint-Nicolas" style="width:400px;height:280px">
+                    <div class="imageplace">Cathedrale Saint-Nicolas</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/côte-d'azur.jpg" alt="The Côte d'Azur" style="width:400px;height:280px">
+                    <div class="imageplace">The Côte d'Azur</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/garibaldi.jpg" alt="Place Garibaldi" style="width:400px;height:280px">
+                    <div class="imageplace">Place Garibaldi</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/jardin-albert-ier.jpg" alt="Jardin Albert 1er" style="width:400px;height:280px">
+                    <div class="imageplace">Jardin Albert 1er</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="Versailles">
+                <h2>VERSAILLES</h2>
+                <p class="explanation">In an age of absolute monarchy, the Château de Versailles was designed to dazzle. This awe-inspiring palace became 
+                    Louis XIV's showpiece, his symbol of power. After all, he was the "Sun King" around whom the world revolved. 
+                    His reign would become known as Le Grand Siècle (The Great Century).</p>
+                <p class="explanation">Louis XIV spent over 50 years reconstructing, expanding, and embellishing the country estate that he inherited 
+                    from his father, Louis XIII. The original small château (a former hunting lodge) at Versailles was eventually 
+                    transformed into Europe's most magnificent palace.</p>
+                <p class="explanation">Versailles, just outside Paris, is a majestic French city with deep royal roots, renowned internationally for 
+                    its palace and gardens. The journey from the French capital can be made in under an hour and, with a rich 
+                    history and some of the country's most spectacular architecture, it's well worth the trip. 
+                    Some of the famous places are in Versailles :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/the-palace-of-versailles.jpg" alt="The Palace of Versailles" style="width:400px;height:280px">
+                    <div class="imageplace">The Palace of Versailles</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/the-hall-of-mirrors.jpg" alt="The Hall of Mirrors" style="width:400px;height:280px">
+                    <div class="imageplace">The Hall of Mirrors</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/le-jardin-de-versailles.jpg" alt="Le Jardin de Versailles" style="width:400px;height:280px">
+                    <div class="imageplace">Le Jardin de Versailles</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/petit-trianon.jpg" alt="Petit Trianon" style="width:400px;height:280px">
+                    <div class="imageplace">Petit Trianon</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/grand-appartement-du-roi.jpg" alt="Grand Appartement du Roi" style="width:400px;height:280px">
+                    <div class="imageplace">Grand Appartement du Roi</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/opéra-royal.jpg" alt="Opéra Royal" style="width:400px;height:280px">
+                    <div class="imageplace">Opéra Royal</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/le-hameau-de-la-reine.jpg" alt="Le Hameau de la Reine" style="width:400px;height:280px">
+                    <div class="imageplace">Le Hameau de la Reine</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/chapelle-royale.jpg" alt="Chapelle Royale" style="width:400px;height:280px">
+                    <div class="imageplace">Chapelle Royale</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/temple-of-love.jpg" alt="" style="width:400px;height:280px">
+                    <div class="imageplace">Temple of Love</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="Bordeaux">
+                <h2>BORDEAUX</h2>
+                <p class="explanation">With its urban elegance and provincial charm, Bordeaux is an appealing tourist destination in Southwest France. 
+                    Bordeaux is called the "Port of the Moon" because of its romantic location on a crescent-shaped bend of the 
+                    Garonne River. In this splendid setting that allowed trade to flourish, the city has a rich cultural heritage 
+                    dating back to antiquity.</p>
+                <p class="explanation">UNESCO declared Bordeaux a World Heritage Site in 1998 thanks to the city's wealth of architectural treasures. 
+                    More than 350 buildings are classified as historical monuments.</p>
+                <p class="explanation">Despite its astounding array of impressive landmarks, Bordeaux is not a tourist trap. It's a vibrant working 
+                    city with bustling cafés, a happening restaurant scene, traditional open-air markets, and a booming high-tech industry.
+                    Some of the famous places are in Bordeaux :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/cathedrale-saint-andre.jpg" alt="Cathédrale Saint-André" style="width:400px;height:280px">
+                    <div class="imageplace">Cathédrale Saint-André</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/le-grand-théâtre.jpg" alt="Le Grand-Théâtre" style="width:400px;height:280px">
+                    <div class="imageplace">Le Grand-Théâtre</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/place_de_la_bourse.jpg" alt="Place de la Bourse" style="width:400px;height:280px">
+                    <div class="imageplace">Place de la Bourse</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/basilique-saint-michel.jpg" alt="Basilique Saint-Michel" style="width:400px;height:280px">
+                    <div class="imageplace">Basilique Saint-Michel</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/esplanade-des-quinconces.jpg" alt="Esplanade des Quinconces" style="width:400px;height:280px">
+                    <div class="imageplace">Esplanade des Quinconces</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/grosse-cloche.jpg" alt="Grosse Cloche" style="width:400px;height:280px">
+                    <div class="imageplace">Grosse Cloche</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/pont-de-pierre.jpg" alt="Pont de Pierre" style="width:400px;height:280px">
+                    <div class="imageplace">Pont de Pierre</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/dune-of-pyla.jpg" alt="Dune of Pyla" style="width:400px;height:280px">
+                    <div class="imageplace">Dune of Pyla</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/les-bassins-des-lumières.jpg" alt="Les Bassins des Lumières" style="width:400px;height:280px">
+                    <div class="imageplace">Les Bassins des Lumières</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="Marseilles">
+                <h2>MARSEILLES</h2>
+                <p class="explanation">With a busy harbor and a vibrant urban energy, Marseilles appeals to visitors seeking an authentic tourist experience. 
+                    This lively cosmopolitan city is France's oldest and the second largest after Paris.</p>
+                <p class="explanation">The city has a distinctly Mediterranean ambience, from its red-tile roofed houses to the fishing boats in its port. 
+                    Everywhere in Marseilles, visitors are close to the serene blue waters, whether walking along a charming old street 
+                    with a view, or feeling the refreshing sea breeze.</p>
+                <p class="explanation">The city's colorful, multiethnic heritage also makes Marseilles a fascinating place to visit. Considered the bridge 
+                    between Europe and North Africa, Marseilles is home to a sizable emigrant population from Algeria. It's possible to
+                     find traditional Arab souks as easily as a classic French bouillabaisse.
+                    Some of the famous places are in Marseilles :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/basilique-notre-dame.jpg" alt="Basilique Notre-Dame de la Garde" style="width:400px;height:280px">
+                    <div class="imageplace">Basilique Notre-Dame de la Garde</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/le-vieux-port.jpg" alt="Le Vieux Port" style="width:400px;height:280px">
+                    <div class="imageplace">Le Vieux Port</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/massif-des-calanques.jpeg" alt="Massif des Calanques" style="width:400px;height:280px">
+                    <div class="imageplace">Massif des Calanques</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/cathédrale-la-major.jpg" alt="Cathédrale la Major" style="width:400px;height:280px">
+                    <div class="imageplace">Cathédrale la Major</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/palais-longchamp.jpg" alt="Palais Longchamp" style="width:400px;height:280px">
+                    <div class="imageplace">Palais Longchamp</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/chateau-dIf.jpg" alt="Château d'If" style="width:400px;height:280px">
+                    <div class="imageplace">Château d'If</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/mucem.jpg" alt="MuCEM" style="width:400px;height:280px">
+                    <div class="imageplace">MuCEM</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/fort-saint-jean.webp" alt="Fort Saint-Jean" style="width:400px;height:280px">
+                    <div class="imageplace">Fort Saint-Jean</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-france/le-panier.jpg" alt="La Panier" style="width:400px;height:280px">
+                    <div class="imageplace">La Panier</div>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>&#8593;</strong></button>
+        </div>
+        <div class="clean"></div>
+    </div>
+
+    <footer><div class="footer">Code First Girls - Copyright © 2022 - Elif GULER & Elizabeth TURAY </div></footer>
+
+    <script src="topup.js"></script>
+    <script src="navbar.js"></script>
+
+</body>
+</html>

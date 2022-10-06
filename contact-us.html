@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+  
+  <div><img class="img-logo" src="travel-logo.png" alt="Travel Logo">
+  </div>
+
+  <div class="clean"></div>
+  
+
+
+<div class="outnavbar">
+   <div class="navbar" id="myTopnav">
+      <a class="link" href="index.html">Home</a>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="turkey.html">Turkey<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+                  <a href="turkey.html#Istanbul">Istanbul</a>
+                  <a href="turkey.html#Izmir">Izmir</a>
+                  <a href="turkey.html#Antalya">Antalya</a>
+                  <a href="turkey.html#Nevsehir">Nevsehir</a>
+                  <a href="turkey.html#Mugla">Mugla</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="france.html">France<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+              <a href="france.html#Paris">Paris</a>
+              <a href="france.html#Nice">Nice</a>
+              <a href="france.html#Versailles">Versailles</a>
+              <a href="france.html#Bordeaux">Bordeaux</a>
+              <a href="france.html#Marseilles">Marseilles</a>
+          </div>
+      </div>
+
+       <div class="dropdown">
+          <button class="dropbtn"><a href="italy.html">Italy<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+              <a href="italy.html#Rome">Rome</a>
+              <a href="italy.html#Venice">Venice</a>
+              <a href="italy.html#Florence">Florence</a>
+              <a href="italy.html#Milan">Milan</a>
+              <a href="italy.html#Capri">Capri</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="theUSA.html">The USA<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+              <a href="theUSA.html#NewYorkCity">New York City</a>
+              <a href="theUSA.html#LasVegas">Las Vegas</a>
+              <a href="theUSA.html#SanFrancisco">San Francisco</a>
+              <a href="theUSA.html#Washington">Washington, D.C.</a>
+              <a href="theUSA.html#LosAngeles">Los Angeles</a>
+              <a href="theUSA.html#Miami">Miami</a>
+          </div>
+      </div>
+      <a class="link" href="contact-us.html">Contact Us</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionNavbar()">&#9776;</a>
+  </div>
+
+</div>
+    <div class="contact-text">
+        <div class="ctext">Contact Us</div>
+
+    </div>
+    <div id="alert" class="alert">
+      <span class="closebtn">&times;</span>  
+      <strong>Error!</strong> Something is wrong. Please try it again.
+    </div>
+    
+    <div id="success" class="alert success">
+      <span class="closebtn">&times;</span>  
+      <strong>Success!</strong> Thank you for contacting us.
+    </div>
+  
+    <div id="ContactUs">
+    <div class="contactus">
+      <form action="contact-us.html">
+    
+        <label for="fname">First Name</label>
+        <input class ="inputcontact" type="text" id="fname" name="firstname" placeholder="Your name" required>
+    
+        <label for="lname">Last Name</label>
+        <input class ="inputcontact" type="text" id="lname" name="lastname" placeholder="Your last name">
+
+        <label for="eaddress">E-mail Address</label>
+        <input class="inputcontact" type="text" id="eaddress" name="emailaddress" placeholder="Your e-mail address." required>
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="select-country">Select Counrty</option>
+          <option value="turkey">Turkey</option>
+          <option value="france">France</option>
+          <option value="italy">Italy</option>
+          <option value="usa">The USA</option>
+          <option value="uk">The UK</option>
+          <option value="other">Other</option>
+
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write your messagge to here." style="height:200px" required></textarea>
+    
+        <button id ="contactsubmit" type="button" onclick="contactform();">Submit</button>
+      </form>
+
+    </div>
+    <button onclick="topFunction();" id="myBtn" title="Go to top"><strong>&#8593;</strong></button>
+  </div>
+
+  <footer><div class="footer">Code First Girls - Copyright © 2022 - Elif GULER & Elizabeth TURAY </div></footer>
+ 
+  <script src="contact.js"></script>
+  <script src="navbar.js"></script>
+  
+</body>
+</html>

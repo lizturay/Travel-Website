@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The USA</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    
+    <div><img class="img-logo" src="travel-logo.png" alt="Travel Logo">
+    </div>
+    <div class="searchbuttondiv">
+        <button class="searchbutton" type="button" style="float: right;" onclick="doSearch(document.getElementById('inputsearch').value)">Search</button>
+        <input id="inputsearch" type="text" placeholder="Search" style="float: right;" >
+    </div>
+
+    <div class="clean"></div>
+    
+
+
+<div class="outnavbar">
+     <div class="navbar" id="myTopnav">
+        <a class="link" href="index.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="turkey.html">Turkey<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                    <a href="turkey.html#Istanbul">Istanbul</a>
+                    <a href="turkey.html#Izmir">Izmir</a>
+                    <a href="turkey.html#Antalya">Antalya</a>
+                    <a href="turkey.html#Nevsehir">Nevsehir</a>
+                    <a href="turkey.html#Mugla">Mugla</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="france.html">France<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                <a href="france.html#Paris">Paris</a>
+                <a href="france.html#Nice">Nice</a>
+                <a href="france.html#Versailles">Versailles</a>
+                <a href="france.html#Bordeaux">Bordeaux</a>
+                <a href="france.html#Marseilles">Marseilles</a>
+            </div>
+        </div>
+
+         <div class="dropdown">
+            <button class="dropbtn"><a href="italy.html">Italy<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                <a href="italy.html#Rome">Rome</a>
+                <a href="italy.html#Venice">Venice</a>
+                <a href="italy.html#Florence">Florence</a>
+                <a href="italy.html#Milan">Milan</a>
+                <a href="italy.html#Capri">Capri</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="theUSA.html">The USA<i class="fa fa-caret-down"></i></a></button>
+            <div class="dropdown-content">
+                <a href="theUSA.html#NewYorkCity">New York City</a>
+                <a href="theUSA.html#LasVegas">Las Vegas</a>
+                <a href="theUSA.html#SanFrancisco">San Francisco</a>
+                <a href="theUSA.html#Washington">Washington, D.C.</a>
+                <a href="theUSA.html#LosAngeles">Los Angeles</a>
+                <a href="theUSA.html#Miami">Miami</a>
+            </div>
+        </div>
+        <a class="link" href="contact-us.html">Contact Us</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionNavbar()">&#9776;</a>
+    </div>
+
+  </div>
+    <div>
+        <p class="explanation">The USA is known for its iconic landmarks e.g. The Statue of Liberty, Hollywood Sign, Golden Gate Bridge
+            but it's also a place of incredible hospitality, wide open spaces and amazing natural beauty. That's 50 states that serve up 
+            unique holiday experiences and provide endless options for every type of traveller.</p>
+        <p class="explanation"> Its history, film industry, music industry and its dozens of historic monuments, the United States is one 
+            of the greatest cultural, political and economic powers in the world. </p>
+    </div>
+
+    <div>
+        <div class="popular-place">
+            <ul> <h4>The Most Popular Places in the USA</h4>
+                <li>New York City - Statue of Liberty</li>
+                <li>New York City - Central Park</li>
+                <li>New York City - Empire State Building</li>
+                <li>New York City - Times Square</li>
+                <li>New York City - St. Patrick's Cathedral</li>
+                <li>New York City - Broadway</li>
+                <li>Las Vegas - The Strip</li>
+                <li>Las Vegas - The Grand Canyon</li>
+                <li>San Francisco - Golden Gate Bridge</li>
+                <li>San Francisco - Alcatraz Island</li>
+                <li>San Francisco - Napa Valley</li>
+                <li>Washington DC - United States Capitol</li>
+                <li>Washington DC - National Mall</li>
+                <li>Los Angeles - Hollywood</li>
+                <li>Los Angeles - Disneyland Resort</li>
+                <li>Miami - Miami Beach</li>
+                <li>Miami - Key Biscayne and Crandon Park</li>
+
+            </ul>
+        </div>
+
+        <div class="main-image">
+            <img class="responsiveimage" src="images-theusa/statue-of-liberty.webp" alt="USA">
+        </div>
+        <div class="popular-dishes">
+            <ul> <h4>The Most Popular Dishes in the USA</h4>
+                <li>Apple Pie</li>
+                <li>Cheesecakes</li>
+                <li>Chocolate Chip Cookies</li>
+                <li>Cheeseburgers</li>
+                <li>Nashville Hot Chicken</li>
+                <li>Chicken and Waffles</li>
+                <li>Buffalo Wings</li>
+                <li>Philly Cheesesteak</li>
+                <li>Texas Barbeque</li>
+                <li>Soul Food</li></ul><br>
+
+            <ul><h4>Airline Companies and Hotels</h4></ul>
+                <li><a class="links" href="https://www.skyscanner.net/">Airline - Skyscanner</a></li>
+                <li><a class="links" href="https://www.americanairlines.co.uk/">Airline - American Airlines</a></li>
+                <li><a class="links" href="https://www.trivago.com/">Hotels - Trivago</a></li>
+                <li><a class="links" href="https://www.booking.com/">Hotels - Booking.com</a></li>
+                <li><a class="links" href="https://www.agoda.com/">Hotels - Agoda</a></li>
+        </div>
+
+        <div class="clean"></div>
+
+        <div>
+            <div id="New York City">
+                <h2>NEW YORK CITY</h2>
+                <p class="explanation">New York is not only the most famous city in the world but also, arguably, the best for tourists, thanks to its 
+                    diverse culture and myriad of entertainment options. There's never a dull day in the city that doesn't sleep.</p>
+                <p class="explanation">The subject of countless love songs and the star of stage and screen, there are so many things to see and do in 
+                    ever-inspiring New York City. Whether you want to muse at museums, feast at some of the very best restaurants 
+                    in the world, or drink your way around atmospheric dive bars, our list of the best things to do in New York City 
+                    will steer you to celebrated sites and invite you to look beyond the beaten path a little, too. Here are just a 
+                    few of the best reasons to visit New York.</p>
+                <p class="explanation">New York was a city founded by immigrants from all over the world. Here you'll find a mixture of old European 
+                    and Asian cuisine; all served to an exceptional standard.Go off the beaten track into Chinatown or the side
+                     streets running off Central Park, and you'll find dozens of independent eateries, all making a name for 
+                     themselves in this giant metropolis.</p>
+                <p class="explanation">The Broadway Theater has been famous all over for at least the past eighty years. Today's Broadway offers a 
+                    wide variety of musicals from different genres, catering to practically any taste.</p>
+                <p class="explanation">When the warm weather arrives, the Bronx Night Market heats up. Unlike other festivals, this monthly market 
+                    is a family-friendly event all about the best of the borough. Food takes the top spot, though the many local 
+                    merchants selling clothes, crafts and more, give the delicious booths a run for their money. Pop-ups, live music 
+                    and performances make every month unique, granting you a hyper-local sampling of the Bronx that evolves with every 
+                    moon cycle.</p>
+                <p class="explanation">Trips to the top of the Empire State Building or One World Trade Center provide elevated views of the skyline, 
+                    but only museums offer a larger-than-life perspective. The Skyscraper Museum in Battery Park City, the AIA New 
+                    York Center for Architecture and the Queens Museum each have special exhibits documenting the Manhattan skyline 
+                    and its iconic skyscrapers. Imagine getting a bird's-eye view of the city from the buildings themselves, before 
+                    diving deep into the details of their histories.</p>
+                <p class="explanation">Some of the famous places in New York City are :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/statueofliberty.jpg" alt="Statue of Liberty" style="width:400px;height:280px">
+                    <div class="imageplace">Statue of Liberty</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/centralparklake.jpg" alt="Central Park" style="width:400px;height:280px">
+                    <div class="imageplace">Central Park</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/rockefellerplazaskating.jpg" alt="Rockefeller Center & Top of the Rock Observation Deck" style="width:400px;height:280px">
+                    <div class="imageplace">Rockefeller Center & Top of the Rock Observation Deck</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/broadway.jpg" alt="Broadway and the Theater District" style="width:400px;height:280px">
+                    <div class="imageplace">Broadway and the Theater District</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/metropolitanmuseumofart.jpg" alt="Metropolitan Museum of Art" style="width:400px;height:280px">
+                    <div class="imageplace">Metropolitan Museum of Art</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/esb.jpg" alt="Empire State Building" style="width:400px;height:280px">
+                    <div class="imageplace">Empire State Building</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/911memorial.jpg" alt=" 9/11 Memorial and Museum" style="width:400px;height:280px">
+                    <div class="imageplace"> 9/11 Memorial and Museum</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/timessquare.jpg" alt="Times Square" style="width:400px;height:280px">
+                    <div class="imageplace">Times Square</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/brooklynbridge.jpg" alt=" Brooklyn Bridge" style="width:400px;height:280px">
+                    <div class="imageplace"> Brooklyn Bridge</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/stpatrickscathedral.jpg" alt="St. Patrick's Cathedral" style="width:400px;height:280px">
+                    <div class="imageplace">St. Patrick's Cathedral</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/owo.jpg" alt="One World Observatory" style="width:400px;height:280px">
+                    <div class="imageplace">One World Observatory</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/publiclibrary.jpg" alt="New York Public Library" style="width:400px;height:280px">
+                    <div class="imageplace">New York Public Library</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="LasVegas">
+                <h2>LAS VEGAS</h2>
+                <p class="explanation">There are many reasons why one should visit Las Vegas. Known as the ultimate playground, the city is 
+                    colorful and vibrant, making it an ideal destination for various travelers looking to explore its 
+                    entertainment, cuisine, and nightlife scene. Las Vegas attracts visitors from all corners of the world 
+                    who are looking to explore the city's best tourist attractions. From the famous Las Vegas Strip to the 
+                    wild pool parties, uncover the beauty of Sin City and find out why you should visit Las Vegas at least 
+                    once in your lifetime.</p>
+                <p class="explanation">You can't visit Las Vegas and not visit the Strip. Known as one of the most famous streets in the world, 
+                    Las Vegas Boulevard is always buzzing. Home to many hotels like the Bellagio, Ceasars Palace and the 
+                    Stratosphere, the Strip also offers endless food and drink options, not to mention a chance to catch a 
+                    musical show.</p> 
+                <p class="explanation">Some of the famous places in Las Vegas are :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/thestrip.jpg" alt="The Strip" style="width:400px;height:280px">
+                    <div class="imageplace">The Strip</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/fremontstreet.jpg" alt="Fremont Street Experience" style="width:400px;height:280px">
+                    <div class="imageplace">Fremont Street Experience</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/grandcanyon.jpg" alt="The Grand Canyon" style="width:400px;height:280px">
+                    <div class="imageplace">The Grand Canyon</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/venetianhotel.jpg" alt="Venetian Hotel and Gondola Rides" style="width:400px;height:280px">
+                    <div class="imageplace">Venetian Hotel and Gondola Rides</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/bellagio.jpg" alt="Bellagio Resort and Fountain Show" style="width:400px;height:280px">
+                    <div class="imageplace">Bellagio Resort and Fountain Show</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/mobmuseum.jpg" alt="The Mob Museum" style="width:400px;height:280px">
+                    <div class="imageplace">The Mob Museum</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/motorspeedway.jpg" alt="Las Vegas Motor Speedway" style="width:400px;height:280px">
+                    <div class="imageplace">Las Vegas Motor Speedway</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/indoorskydiving.jpg" alt="Vegas Indoor Skydiving" style="width:400px;height:280px">
+                    <div class="imageplace">Vegas Indoor Skydiving</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/madametussauds.webp" alt="Madame Tussaud's" style="width:400px;height:280px">
+                    <div class="imageplace">Madame Tussaud's</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="SanFrancisco">
+                <h2>SAN FRANCISCO</h2>
+                <p class="explanation">There's way more to San Francisco than expensive apartments and coffee shops that take Bitcoin. Exploring 
+                    the City by the Bay reveals an intricate patchwork of cultures and communities. Read on for 10 reasons 
+                    why San Francisco should be on your list of must-visit destinations.</p>
+                <p class="explanation">One of the interesting things about visiting San Francisco is that, although the city is colossal in terms 
+                    of attraction and amenities, it is geographically small. Visitors who set foot into the city can explore 
+                    almost all part of the city within a day and it's enough time to make a scene and make a difference in San 
+                    Francisco. In just one perfect day, it is possible to do most of the great things including trip to Alcatraz, 
+                    walk through the oldest Chinatown, visit to the world class museums, go shopping at Union Square, walk 
+                    over the Golden Gate Bridge, dine at Al's Place, ride the cable car and so on.</p>
+                <p class="explanation">Some of the famous places in San Francisco are :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/goldengatebridge.jpg" alt="Golden Gate Bridge" style="width:400px;height:280px">
+                    <div class="imageplace">Golden Gate Bridge</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/alcatrazisland.jpg" alt="Alcatraz Island" style="width:400px;height:280px">
+                    <div class="imageplace">Alcatraz Island</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/goldengatepark.jpg" alt="Golden Gate Park" style="width:400px;height:280px">
+                    <div class="imageplace">Golden Gate Park</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/legio-ofhonor.jpg" alt="Legion of Honor" style="width:400px;height:280px">
+                    <div class="imageplace">Legion of Honor</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/palaceoffinearts.jpg" alt="Palace of Fine Arts" style="width:400px;height:280px">
+                    <div class="imageplace">Palace of Fine Arts</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/museumofmodernart.jpg" alt="San Francisco Museum of Modern Art" style="width:400px;height:280px">
+                    <div class="imageplace">San Francisco Museum of Modern Art</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/asianartmuseum.jpg" alt="Asian Art Museum" style="width:400px;height:280px">
+                    <div class="imageplace">Asian Art Museum</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/napavalley.jpg" alt="Napa Valley" style="width:400px;height:280px">
+                    <div class="imageplace">Napa Valley</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/ghirardelli.jpg" alt="Ghirardelli Square" style="width:400px;height:280px">
+                    <div class="imageplace">Ghirardelli Square</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/angelisland.jpg" alt="Angel Island State Park" style="width:400px;height:280px">
+                    <div class="imageplace">Angel Island State Park</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/oraclestadium.jpg" alt="Oracle Park" style="width:400px;height:280px">
+                    <div class="imageplace">Oracle Park</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/chinatown.jpg" alt="Chinatown" style="width:400px;height:280px">
+                    <div class="imageplace">Chinatown</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="Washington">
+                <h2>WASHINGTON D.C.</h2>
+                <p class="explanation">One of the most visited cities in the USA, Washington, DC offers a variety of interesting experiences, from 
+                    learning about American history and government to seeing many of the most iconic sights in the country. 
+                    This vibrant city is also home to great food, art, cultural attractions and much more.Springtime in DC 
+                    is fantastic: sunny days, no humidity, blue skies, and the burgeoning cherry blossoms. The National 
+                    Cherry Blossom Festival, a month-long celebration, is a great mix of culture, music, art, film 
+                    screenings, and more.</p>
+                <p class="explanation">Get a dose of history and culture in the city. Visit the Smithsonian Museums; view the poignant Lincoln, 
+                    Jefferson, and Martin Luther King Jr. Memorials; get a free tour of the US Capitol; check out art at 
+                    the National Gallery of Art; and get a look at the original Declaration of Independence at the National 
+                    Archives. The best part? All of this is completely free.</p>
+                <p>Some of the famous places in Washington D.C. are :</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/capitol.jpg" alt="United States Capitol and Capitol Hill" style="width:400px;height:280px">
+                    <div class="imageplace">United States Capitol and Capitol Hill</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/lincoln-memorial.jpg" alt="The Lincoln Memorial" style="width:400px;height:280px">
+                    <div class="imageplace">The Lincoln Memorial</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/national-mall-and-veterans-memorials.jpg" alt="National Mall and Veterans Memorials" style="width:400px;height:280px">
+                    <div class="imageplace">National Mall and Veterans Memorials</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/airandspacemuseum.jpg" alt="National Air and Space Museum" style="width:400px;height:280px">
+                    <div class="imageplace">National Air and Space Museum</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/white-house.jpg" alt="The White House" style="width:400px;height:280px">
+                    <div class="imageplace">The White House</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/nationalgalleryofart.jpg" alt="National Gallery of Art" style="width:400px;height:280px">
+                    <div class="imageplace">National Gallery of Art</div>
+                </div>
+            
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/libraryofcongress.jpg" alt="Library of Congress" style="width:400px;height:280px">
+                    <div class="imageplace">Library of Congress</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/museumafricanamericanhistory.jpg" alt="National Museum of African American History and Culture" style="width:400px;height:280px">
+                    <div class="imageplace">National Museum of African American History and Culture</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/jefferson-memorial.jpg" alt=" Jefferson Memorial and Tidal Basin" style="width:400px;height:280px">
+                    <div class="imageplace"> Jefferson Memorial and Tidal Basin</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/botanic-garden.jpg" alt="U.S. Botanic Garden" style="width:400px;height:280px">
+                    <div class="imageplace">U.S. Botanic Garden</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/nationalcathedral.jpg" alt="Washington National Cathedral" style="width:400px;height:280px">
+                    <div class="imageplace">Washington National Cathedral</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/spy-museum.jpg" alt="International Spy Museum" style="width:400px;height:280px">
+                    <div class="imageplace">International Spy Museum</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/national-zoo.jpg" alt="National Zoological Park" style="width:400px;height:280px">
+                    <div class="imageplace">National Zoological Park</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/john-kennedy-center.jpg" alt=" The John F. Kennedy Center for the Performing Arts" style="width:400px;height:280px">
+                    <div class="imageplace"> The John F. Kennedy Center for the Performing Arts</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/nationalmuseumamericanhistory.jpg" alt="National Museum of American History" style="width:400px;height:280px">
+                    <div class="imageplace">National Museum of American History</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="LosAngeles">
+                <h2>LOS ANGELES</h2>
+                <p class="explanation">With iconic landmarks, a vibrant cultural scene and sunny skies throughout the year, there is no shortage of reasons 
+                    to visit Los Angeles. From art at the Getty Center to hiking in Malibu, our top picks highlight why LA should be at 
+                    the top of your travel bucket list. Los Angeles is the entertainment capital of the world, offering myriad attractions 
+                    and activities: movie studios, the Sunset Strip, Venice Beach, landmark museums, world-famous theme parks, wineries, 
+                    breweries, outdoor activities, exciting nightlife, and much more.</p>
+                <p class="explanation">Want a Hawaiian breakfast, Ethiopian for lunch, and all-you-can-eat Korean BBQ for dinner? That's no problem in Los 
+                    Angeles. As an incredibly diverse city, LA offers opportunities to discover the cuisines, festivals and cultures of 
+                    the many communities that make it such a rich tapestry. Neighborhoods such as Little Tokyo, Chinatown, Little Ethiopia 
+                    and Koreatown offer plenty of great food, as well as museums, galleries, shopping and educational opportunities.</p>
+                <p class="explanation">Some of the famous places in Los Angeles are:</p>
+            </div>
+
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/universalstudios.jpg" alt="Universal Studios Hollywood" style="width:400px;height:280px">
+                    <div class="imageplace">Universal Studios Hollywood</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/griffith-observatory.jpg" alt="Griffith Park and Griffith Observatory" style="width:400px;height:280px">
+                    <div class="imageplace">Griffith Park and Griffith Observatory</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/disneyland.jpg" alt="Disneyland Resort" style="width:400px;height:280px">
+                    <div class="imageplace">Disneyland Resort</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/hollywood.jpg" alt="Hollywood" style="width:400px;height:280px">
+                    <div class="imageplace">Hollywood</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/getty-center.jpg" alt="The Getty Center" style="width:400px;height:280px">
+                    <div class="imageplace">The Getty Center</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/automotive-museum.jpg" alt="Petersen Automotive Museum" style="width:400px;height:280px">
+                    <div class="imageplace">Petersen Automotive Museum</div>
+                </div>
+            
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/santamonica.webp" alt="Santa Monica" style="width:400px;height:280px">
+                    <div class="imageplace">Santa Monica</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/science-cente.jpg" alt="California Science Center" style="width:400px;height:280px">
+                    <div class="imageplace">California Science Center</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/the-broad.jpg" alt="The Broad" style="width:400px;height:280px">
+                    <div class="imageplace">The Broad</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/VeniceBeach.jpg" alt=" Venice Beach" style="width:400px;height:280px">
+                    <div class="imageplace"> Venice Beach</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/beverlyhills.jpg" alt="Beverly Hills" style="width:400px;height:280px">
+                    <div class="imageplace">Beverly Hills</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/malibu.jpg" alt="Malibu" style="width:400px;height:280px">
+                    <div class="imageplace">Malibu</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/moca.jpg" alt="Museum of Contemporary Art (MOCA)" style="width:400px;height:280px">
+                    <div class="imageplace">Museum of Contemporary Art (MOCA)</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/battleship.jfif" alt="Battleship Iowa Museum" style="width:400px;height:280px">
+                    <div class="imageplace">Battleship Iowa Museum</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/lacountymuseumofart.jpg" alt=" Los Angeles County Museum of Art (LACMA)" style="width:400px;height:280px">
+                    <div class="imageplace"> Los Angeles County Museum of Art (LACMA)</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clean"></div>
+        <div>
+            <div id="Miami">
+                <h2>MIAMI</h2>
+                <p class="explanation">With its colorful Collins Avenue skyline and blue Biscayne Bay views, Miami is the perfect place to visit at any time of year.</p>
+                <p class="explanation">For residents of Miami, life must sometimes feel like a full-time vacation. Along Ocean Drive, bright pink and yellow Art Deco 
+                    buildings pop against the blue backdrop of the Atlantic Ocean. On Calle Ocho, the smell of freshly baked croquetas wafts through 
+                    the air. Walk past any bar or nightclub and the sound of Latin music blasts onto the streets, turning even an empty parking lot 
+                    into a salsa dance floor. A destination for culture, art, food and yes, its world-renowned nightlife, there are countless reasons 
+                    to visit Miami.</p>
+                <p class="explanation">Miami is a city that never needs sleep, mostly because it's too busy partying. While it's also a destination for award-winning 
+                    restaurants, international art and sports (let's not forget the Miami Heat and David Beckham's Club Internacional de Fútbol Miami), 
+                    Miami's nightlife scene is renowned, and for good reason.</p>
+                <p class="explanation">Some of the famous places in Miami are :</p>
+            </div>
+            <div class="gallery">
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/miami-beach.jpg" alt="Miami Beach" style="width:400px;height:280px">
+                    <div class="imageplace">Miami Beach</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/art-deco-buildings.jpg" alt="Art Deco Historic District" style="width:400px;height:280px">
+                    <div class="imageplace">Art Deco Historic District</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/vizcaya-museum.jpg" alt="Vizcaya Museum and Gardens" style="width:400px;height:280px">
+                    <div class="imageplace">Vizcaya Museum and Gardens</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/everglades-national-park.jpg" alt="Everglades National Park" style="width:400px;height:280px">
+                    <div class="imageplace">Everglades National Park</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/little-havana.jpg" alt="Little Havana and Calle Ocho" style="width:400px;height:280px">
+                    <div class="imageplace">Little Havana and Calle Ocho</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/perez-art-museum.jpg" alt="Perez Art Museum" style="width:400px;height:280px">
+                    <div class="imageplace">Perez Art Museum</div>
+                </div>   
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/botanical-gardens.jpg" alt="Fairchild Tropical Botanical Gardens" style="width:400px;height:280px">
+                    <div class="imageplace">Fairchild Tropical Botanical Gardens</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/hobie-beach.jpg" alt="Hobie Beach" style="width:400px;height:280px">
+                    <div class="imageplace">Hobie Beach</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/zoo-miami.jpg" alt="Zoo Miami" style="width:400px;height:280px">
+                    <div class="imageplace">Zoo Miami</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/deering-estate-at-cutler.jpg" alt="Deering Estate at Cutler" style="width:400px;height:280px">
+                    <div class="imageplace">Deering Estate at Cutler</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/wynwood-walls-sign.jpg" alt=" Wynwood Walls Street Art" style="width:400px;height:280px">
+                    <div class="imageplace"> Wynwood Walls Street Art</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/american-airlines-arena.jpg" alt="Basketball Games at FTX Arena" style="width:400px;height:280px">
+                    <div class="imageplace">Basketball Games at FTX Arena</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/venetian-pool.jpg" alt="Venetian Pool" style="width:400px;height:280px">
+                    <div class="imageplace">Venetian Pool</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/coral-castle.jpg" alt="Coral Castle" style="width:400px;height:280px">
+                    <div class="imageplace">Coral Castle</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/freedom-tower.jpg" alt="Freedom Tower" style="width:400px;height:280px">
+                    <div class="imageplace">Freedom Tower</div>
+                </div>
+
+                <div class="clean"></div>
+
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/frost-museum.jpg" alt="Phillip and Patricia Frost Museum of Science" style="width:400px;height:280px">
+                    <div class="imageplace">Phillip and Patricia Frost Museum of Science</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/Bill-Baggs.jpg" alt="Bill Baggs Cape Florida State Park" style="width:400px;height:280px">
+                    <div class="imageplace">Bill Baggs Cape Florida State Park</div>
+                </div>
+                <div class="imagegeneral">
+                    <img class="contents" src="images-theusa/keybiscayne.jpg" alt="Key Biscayne and Crandon Park" style="width:400px;height:280px">
+                    <div class="imageplace">Key Biscayne and Crandon Park</div>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>&#8593;</strong></button>
+        </div>
+        <div class="clean"></div>
+    </div>
+
+    <footer><div class="footer">Code First Girls - Copyright © 2022 - Elif GULER & Elizabeth TURAY </div></footer>
+
+    <script src="topup.js"></script>
+    <script src="navbar.js"></script>
+
+</body>
+</html>

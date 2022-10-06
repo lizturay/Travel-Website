@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+  
+  <div>
+    <img class="img-logo" src="travel-logo.png" alt="Travel Logo">
+  </div>
+  <div class="searchbuttondiv">
+      <button class="searchbutton" type="button" style="float: right;" onclick="doSearch(document.getElementById('inputsearch').value)">Search</button>
+      <input id="inputsearch" type="text" placeholder="Search" style="float: right;" >
+  </div>
+
+  <div class="clean"></div>
+  
+
+
+<div class="outnavbar">
+   <div class="navbar" id="myTopnav">
+      <a class="link" href="index.html">Home</a>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="turkey.html">Turkey<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+                  <a href="turkey.html#Istanbul">Istanbul</a>
+                  <a href="turkey.html#Izmir">Izmir</a>
+                  <a href="turkey.html#Antalya">Antalya</a>
+                  <a href="turkey.html#Nevsehir">Nevsehir</a>
+                  <a href="turkey.html#Mugla">Mugla</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="france.html">France<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+              <a href="france.html#Paris">Paris</a>
+              <a href="france.html#Nice">Nice</a>
+              <a href="france.html#Versailles">Versailles</a>
+              <a href="france.html#Bordeaux">Bordeaux</a>
+              <a href="france.html#Marseilles">Marseilles</a>
+          </div>
+      </div>
+
+       <div class="dropdown">
+          <button class="dropbtn"><a href="italy.html">Italy<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+              <a href="italy.html#Rome">Rome</a>
+              <a href="italy.html#Venice">Venice</a>
+              <a href="italy.html#Florence">Florence</a>
+              <a href="italy.html#Milan">Milan</a>
+              <a href="italy.html#Capri">Capri</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="theUSA.html">The USA<i class="fa fa-caret-down"></i></a></button>
+          <div class="dropdown-content">
+              <a href="theUSA.html#NewYorkCity">New York City</a>
+              <a href="theUSA.html#LasVegas">Las Vegas</a>
+              <a href="theUSA.html#SanFrancisco">San Francisco</a>
+              <a href="theUSA.html#Washington">Washington, D.C.</a>
+              <a href="theUSA.html#LosAngeles">Los Angeles</a>
+              <a href="theUSA.html#Miami">Miami</a>
+          </div>
+      </div>
+      <a class="link" href="contact-us.html">Contact Us</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunctionNavbar()">&#9776;</a>
+  </div>
+
+</div>
+
+  <div>
+    <div>
+      <p class="explanation">There are so many places to visit and see in our world that sometimes people can't decide where 
+      to go for a holiday. Although it takes a lot of time to visit every inch of the world, we have made it easy for you 
+      and we have made it easier for you to visit the popular sights of the world by dividing them into seasons. 
+      What are the places to visit in the world? Which places are popular in which seasons? 
+      Let's look at the answers to such questions together.</p>
+    </div>
+    <!-- Container for the image gallery -->
+    <div class="photodesign">
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/autumn1.jpg">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/summer1.jpg">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/winter1.jpg">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/spring1.webp">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/summer2.jpg">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/autumn2.jpg">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/winter2.jpg">
+      </div>
+
+      <div class="myMainSlides">
+        <img class="indeximageresponsive" src="images-seasons/spring2.jpg">
+      </div>
+    </div>
+
+    <div class="clean"></div>
+
+    <div><p class="explanation">You can see the popular lists of that category by clicking on the images.</p></div>
+    <div class="container">
+      <!-- Thumbnail images --> 
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images-seasons/seasons.jpg" onclick="currentSlide(1)" alt="Seasons List">
+          <div class="seasonstext">Seasons</div>
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="images-seasons/autumn.jpeg" onclick="currentSlide(2)" alt="Autumn List">
+          <div class="seasonstext">Autumn</div>
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="images-seasons/spring.jpg" onclick="currentSlide(3)" alt="Spring List">
+          <div class="seasonstext">Spring</div>
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="images-seasons/summer.jpeg" onclick="currentSlide(4)" alt="Summer List">
+          <div class="seasonstext">Summer</div>
+        </div>
+
+        <div class="column">
+          <img class="demo cursor" src="images-seasons/winter.jpg" onclick="currentSlide(5)" alt="Winter List">
+          <div class="seasonstext">Winter</div>
+        </div>
+        
+      </div>
+      <div class="clean"></div>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+       </div>
+      <div class="clean"></div>
+              <!-- Next and previous buttons -->
+            <!-- Image text -->
+      <div>
+        
+        <!-- Full-width images with number text -->
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 5</div>
+          <div>
+            <div class="home-images"><img class="homeimages" src="images-seasons/seasons.jpg"></div>
+            <div class="home-content"><p id="caption">
+              <p id="caption">Dreamy beaches, silky warm seas, lush scenery, and endless sunshine, these are some of the top 
+              ingredients of the ideal tropical vacation. But each destination offers its own sultry charms. Some dazzle with
+              their natural beauty. Others add cultural attractions to the mix, with exotic customs, architecture, 
+              and mouthwatering cuisine. A few offer eco-adventures and wildlife-rich wilderness, and some sleepy islands 
+              seem to take you back in time.</p><br><br>           
+              <ul class="place-alignment"><li>Bali</li>
+              <li>Dubai</li>
+              <li>Aitutaki,Cook Islands</li>
+              <li>Canary Islands</li>
+              <li>Bora Bora,Tahiti</li>
+              <li>Riviera Maya,Mexico</li>
+              <li>Barcelona</li>
+              <li>Iceland</li>
+              <li>Malta</li>
+              <li>Maldives</li>
+              <li>Miami</li>
+              <li>Rio De Janiero</li>
+              <li>Kaua'i, Hawaii</li>
+              <li>New York</li></ul></p></div>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 5</div>
+          <div>
+            <div class="home-images"><img class="homeimages" src="images-seasons/autumn.jpeg"></div>
+            <div class="home-content"><p id="caption">
+              <p id="caption">Fall is a great time to travel, and not only to enjoy the beautiful scenery enhanced by autumn 
+              foliage, but it often means fewer tourists, lower airfares, and better bargains. If you're thinking about a fall 
+              vacation, you should read these fabulous destinations.</p><br><br>
+              <ul class="place-alignment"><li>Utrecht, Netherlands</li>
+                <li>Tel Aviv, Israel</li>
+                <li>Novosibirsk, Russia</li>
+                <li>Seville, Spain</li>
+                <li>Belfast, Northern Ireland</li>
+                <li>Ontario, Canada</li>
+                <li>Tuscany, Italy</li>
+                <li>Mount Fuji, Japan</li>
+                <li>Lisbon, Portugal</li>
+                <li>Patagonia, Argentina</li>
+                <li>Iceland</li>
+                <li>Madeira, Portugal</li>
+                <li>Markt Hartmannsdorf, Austria</li>
+                <li>Lodz, Poland</li>
+              </ul></p></div>
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 5</div>
+          <div>
+            <div class="home-images"><img class="homeimages" src="images-seasons/spring.jpg"></div>
+            <div class="home-content"><p id="caption">
+              <p id="caption">Spring is the favorite travel season for many since you can avoid the hot summer temperatures 
+                and the massive crowds that accompany summer trips. 
+                <br>Flowers blooming, birds singing, sun shining and joy everywhere that is the ultimate vibe 
+                of spring in the air. Looking for some inspiration to travel during spring break around the world? Here is 
+                a great list of top spring break destinations around the world to experience the magic of spring, recommended 
+                by some top travel experts.</p><br><br>
+              <ul class="place-alignment"><li>Skagit Valley, Washington, USA</li>
+                <li>Cherry Blossom Festival, Japan</li>
+                <li>Castelluccio, Umbria, Italy</li>
+                <li>Provence, France</li>
+                <li>Hwasun County, South Korea</li>
+                <li>Palouse Region, Washington State, USA</li>
+                <li>Hitachi Seaside Park, Hitachinaka, Japan</li>
+                <li>Tulip Festival, The Netherlands</li>
+                <li>Columbia River Gorge, Pacific Northwest, USA</li>
+                <li>Goldfield mountains, Arizona (USA)</li>
+                <li>Mount Fuji, Honshu Island (Japan)</li>
+                <li>Keukenhof Gardens, Amsterdam (Netherlands)</li>
+                <li>Bonn, Germany</li></ul></p></div>
+          </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 5</div>
+          <div>
+            <div class="home-images"><img class="homeimages" src="images-seasons/summer.jpeg"></div>
+            <div class="home-content"><p id="caption">
+              <p id="caption">For many, the desire to travel peaks when summer rolls around. But with so many places 
+                experiencing warmer weather and longer days, it's hard to decide which destination is right for you.
+                Use this list to help you plan your vacation.</p><br> <br>
+              <ul class="place-alignment"><li>Grand Canyon, Arizona</li>
+                <li>Rome, Italy</li>
+                <li>Whistler, Canada</li>
+                <li>San Diego, California</li>
+                <li>Nova Scotia, Canada</li>
+                <li>Zermatt, Switzerland</li>
+                <li>Seattle, Washington</li>
+                <li>Marseille, France</li>
+                <li>Anchorage, Alaska</li>
+                <li>Edinburgh, Scotland</li>
+                <li>Chicago, Illinois</li>
+                <li>Machu Picchu, Peru</li>
+                <li>Aspen, Colorado</li>
+                <li>Amalfi Coast, Italy</li></ul></p></div>
+          </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 /5</div>
+          <div>
+            <p id="caption"></p>
+            <div class="home-images"><img class="homeimages" src="images-seasons/winter.jpg"></div>
+            <div class="home-content"><p id="caption">
+              <p id="caption">There's something to be said for embracing the depth of winters and heading towards snowy destinations 
+                instead of away. In fact, some European cities are even more stunning in winter, as snow covers rooflines and transforms 
+                valleys and mountains into a powdery, white fairy tale.
+                <br>Whether you're looking for snow holidays because you love winter or just for a change of pace, find destinations 
+                that will awe you with their many possibilities for outdoor fun in the coldest months of the year with our list of 
+                the best winter holidays with snow.</p><br><br>
+              <ul class="place-alignment"><li>Chicago, The USA</li>
+                <li>Tallinn in Estonia</li>
+                <li>Plitvice Lakes National Park, Croatia</li>
+                <li>Jigokudani Monkey Park, Japan</li>
+                <li>Banff National Park in Canada</li>
+                <li>Hallstatt in Austria</li>
+                <li>Richmond Park, UK</li>
+                <li>Gobi Desert in Mongolia</li>
+                <li>Bruges in Belgium</li>
+                <li>Schloss Neuschwanstein, Germany</li>
+                <li>Trakai Castle, Lithuania</li>
+                <li>High Atlas Mountains in Morocco</li>
+                <li>Queenstown, New Zealand</li>
+                <li>Lapland, Finland</li></ul></p></div>
+            </div>
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>&#8593;</strong></button>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    
+    <div class="clean"></div>
+  </div>
+  
+  <footer><div class="footer">Code First Girls - Copyright © 2022 - Elif GULER & Elizabeth TURAY </div></footer>
+
+  <script src="topup.js"></script>
+  <script src="index.js"></script>
+  <script src="navbar.js"></script>
+
+
+</body>
+</html>

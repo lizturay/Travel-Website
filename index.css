@@ -1,0 +1,666 @@
+.img-logo{
+  padding-left: 175px;
+  width: 430px;
+  height: 100px;
+}
+
+/* PHONE VERSION */
+@media only screen and
+(min-width: 320px) {
+.img-logo {padding-left:0px;width: 180px;height: 60px;}
+}
+/* TABLET VERSION */
+@media only screen and
+(min-width: 768px) {
+.img-logo {padding-left: 50px;width: 250px;height: 70px;}
+}
+/* DESKTOP VERSION */
+@media only screen and
+(min-width: 980px) {
+.img-logo{ padding-left: 175px;width: 430px;height: 100px;}
+}
+
+
+#inputsearch {
+  margin-right: 10px;
+  padding: 7px;
+  margin-top: 35px;
+  font-family: 'Kalam', cursive;
+}
+
+@media only screen and
+(min-width: 320px) {
+#inputsearch{padding:1px;}
+}
+/* TABLET VERSION */
+@media only screen and
+(min-width: 768px) {
+#inputsearch{padding:7px}
+}
+/* DESKTOP VERSION */
+@media only screen and
+(min-width: 980px) {
+#inputsearch{ padding: 7px;}
+}
+
+.explanation{
+  padding-top: 20px;
+  font-family: 'Kalam', cursive;
+  margin-left:72px;
+  margin-right:72px;
+  text-align: center;
+}
+
+.searchbutton {
+  margin-right: 100px;
+  padding: 7px;
+  margin-top: 35px;
+  background-color:rgb(228, 173, 156);
+  border-width: 3px;
+  border-color:#6b9bae;
+  font-family: 'Kalam', cursive;
+  color:white;
+}
+@media only screen and
+(min-width: 320px) {
+.searchbutton {padding:3px;margin-right: 0px;}
+}
+/* TABLET VERSION */
+@media only screen and
+(min-width: 768px) {
+.searchbutton{padding:7px;margin-right: 50px;}
+}
+/* DESKTOP VERSION */
+@media only screen and
+(min-width: 980px) {
+.searchbutton{ padding: 7px; margin-right: 100px;}
+}
+
+.link{
+  min-width: 160px;
+}
+
+.links{
+  color:rgb(228, 173, 156);
+}
+
+h4{
+  color:rgb(222, 79, 126);
+}
+
+h2{
+  color:rgb(222, 79, 126);
+  margin-top: 70px;
+  text-align: center;
+  
+}
+/* Navbar container */
+.outnavbar{
+  width: 100%;
+  background-color:rgb(228, 173, 156);
+}
+.navbar {
+  overflow: hidden;
+  font-family: 'Kalam', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.season_image{
+  margin-top:  50px;;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float:left;
+  padding: 10px;
+}
+
+.navbar .icon{
+  display: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  /*min-width: 160px;*/
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  cursor: pointer;
+  width: 160px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:rgb(222, 79, 126);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(246, 245, 245);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:rgb(228, 173, 156);
+  padding: 12px 16px;
+  display: block;
+  text-align:left;
+ /* text-align:center;*/
+  float: none;
+  text-decoration: none;
+
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.main-image {
+  margin-top:50px;
+  margin-left:20px;
+  margin-right:20px;
+  float:left;
+  background-color:rgb(239, 236, 236);
+}
+
+.responsiveimage {
+width: 525px;
+height: 700px;
+
+}
+/* PHONE VERSION */
+@media only screen and
+(min-width: 320px) {
+.responsiveimage {width: 360px;height: 500px;}
+}
+/* TABLET VERSION */
+@media only screen and
+(min-width: 768px) {
+.responsiveimage {width:480px;height:640px;}
+}
+/* DESKTOP VERSION */
+@media only screen and
+(min-width: 980px) {
+.responsiveimage{width:525px; height: 700px;}
+}
+
+.indeximageresponsive {
+width: 900px;
+height: 500px;
+
+}
+/* PHONE VERSION */
+@media only screen and
+(min-width: 320px) {
+.indeximageresponsive {width:360px;height: 200px;}
+}
+/* TABLET VERSION */
+@media only screen and
+(min-width: 768px) {
+.indeximageresponsive {width:709px;height:394px;}
+}
+/* DESKTOP VERSION */
+@media only screen and
+(min-width: 980px) {
+.indeximageresponsive{width:900px; height: 500px;}
+}
+
+.popular-place{
+  margin-top: 50px;
+  margin-left:70px;
+  margin-right:10px;
+  padding: 0px;
+  width: 375px;
+  float: left;
+  font-family: 'Kalam', cursive;
+  background-color:rgb(250, 250, 250);
+  font-size: 17px;
+}
+/* PHONE VERSION */
+@media only screen and
+(min-width: 320px) {
+.popular-place {width:375px;}
+
+}
+/* TABLET VERSION  */
+@media only screen and
+(min-width: 768px) {
+.popular-place {width:375px;}
+}
+/* DESKTOP VERSION */
+@media only screen and
+(min-width: 980px) {
+.popular-place{width:375px;}
+}
+
+.popular-dishes{
+margin-top: 50px;
+margin-left:10px;
+margin-right:70px;
+padding: 0px;
+width: 375px;
+float: left;
+font-family: 'Kalam', cursive;
+background-color:rgb(250, 250, 250);
+font-size: 17px;
+}
+
+
+.contents{
+  margin-left:70px;
+  padding: 15px;
+}
+
+li{
+  padding: 10px;
+  list-style-type: circle;
+}
+
+ul{
+  margin-top: -20px;
+}
+
+.footer{
+  background-color:rgb(228, 173, 156);
+  font-size: 14px;
+  font-family: 'Kalam', cursive;
+  display: flex;            
+  justify-content: center;            
+  align-items: center;
+  color:white;
+  height: 50px;
+  margin-top: 50px;
+  width:100%;
+  
+}
+.clean{
+  clear: both;
+}
+.imagegeneral{
+  float: left;
+}
+.imageplace{
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  margin-left: 70px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  margin-top:20px;
+  margin-left:7px;
+
+}
+.myMainSlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top:70%;
+  width: auto;
+  padding: 16px;
+  margin-top: 350px;
+  color:white;
+  font-weight: bold;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right:750px;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 7px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a pink background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color:rgb(222, 79, 126);
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color:white;
+  font-size: 15px;
+  font-family: 'Kalam', cursive;
+  padding: 8px 12px;
+  position: absolute;
+
+}
+
+/* Container for image text */
+.caption-container {
+  color:rgb(222, 79, 126);
+  font-family: 'Kalam', cursive;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #a9a9a967;
+  border-radius: 10px;
+  height: 35px;
+  display: flex;            
+  justify-content: center;            
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Five columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+  padding:5px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.5;
+  width:300px; 
+  height:215px;
+}
+
+  /* PHONE VERSION */
+  @media only screen and
+  (min-width: 320px) {
+  .demo {width: 70px; height: 70px;}
+  
+  }
+  /* TABLET VERSION  */
+  @media only screen and
+  (min-width: 768px) {
+  .demo {width:235px; height: 168px;}
+  }
+  /* DESKTOP VERSION */
+  @media only screen and
+  (min-width: 980px) {
+  .demo{width:300px; height: 215px;}
+  }
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.photodesign{
+text-align: center;
+padding-top: 20px;
+}
+
+.seasonstext{
+text-align: center;
+padding:10px;
+color:rgb(222, 79, 126);
+font-family: 'Kalam', cursive;
+font-size: 17px;
+}
+.home-content{
+text-align: left;
+color:black;
+font-family: 'Kalam', cursive;
+
+float:right;
+margin-right: 10px;
+
+}
+.home-images{
+float:left;
+width: 50%;
+margin-top: 0px;
+padding-top: 0px;
+}
+.homeimages{
+width:750px;
+height:550px;
+}
+
+  /* PHONE VERSION */
+  @media only screen and
+  (min-width: 320px) {
+  .homeimages {width:365px; height: 266px;}
+  }
+  @media only screen and
+  (min-width: 500px) {
+    .home-content{clear: both;float: left;width: 400px;}
+  }  
+  @media only screen and
+    (min-width: 768px) {
+      .home-content{clear: both;float: left;width: 680px;}
+    }  
+    @media only screen and
+    (min-width: 980px) {
+      .home-content{clear: right;float: right;width: 700px;}
+    }  
+    @media only screen and
+    (width < 500px) {
+      .home-content{clear: both;float: left;}
+      .popular-place, .main-image, .contents{ margin-left: 0;}
+      .contents{max-width: 100%;}
+    }       
+    @media only screen and
+    (width > 500px) {
+      .searchbuttondiv{margin-top: -70px;padding-bottom: 90px;}
+      .contactus{width:700px;margin-left: auto; margin-right: auto;}
+    }      
+  /* TABLET VERSION  */
+  @media only screen and
+  (min-width: 768px) {
+  .homeimages {width:587px; height: 431px;}
+
+  }
+  /* DESKTOP VERSION */
+  @media only screen and
+  (min-width: 980px) {
+  .homeimages{width:750px; height: 550px;}
+  }
+.place-alignment{
+columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2;
+}
+.seasons-explain{
+padding: 0px;
+margin: 0px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+.inputcontact[type=text], select, textarea {
+width: 100%; /* Full width */
+padding: 12px; /* Some padding */ 
+border: 1px solid #ccc; /* Gray border */
+border-radius: 4px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+font-family: 'Kalam', cursive;
+}
+
+/* Style the submit button with a specific background color etc */
+.inputcontact[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Kalam', cursive;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.inputcontact[type=submit]:hover {
+background-color: #45a049;
+font-family: 'Kalam', cursive;
+}
+
+/* Add a background color and some padding around the form */
+.contactus {
+border-radius: 5px;
+background-color:rgb(235, 230, 229);
+padding: 20px;
+font-family: 'Kalam', cursive;
+
+}
+.contact-text{
+font-size: 30px;
+font-family: 'Kalam', cursive;
+text-align: center;
+color:#00000090;
+height:120px;
+}
+.ctext{
+text-align: center;
+padding-top: 50px;
+}
+#contactsubmit{
+text-align: center;
+font-family: 'Kalam', cursive;
+background-color: rgb(200, 197, 196);
+width: 100px;
+height: 50px;
+}
+
+#myBtn {
+margin: 10px;
+display: none;
+position: fixed;
+bottom: 50px;
+right: 10px;
+z-index: 99;
+font-size: 35px;
+border: none;
+outline: none;
+background-color:rgb(228, 173, 156);
+color: white;
+cursor: pointer;
+padding: 2px;
+border-radius: 4px;
+width: 60px;
+opacity: 0.8;
+
+}
+
+#myBtn:hover {
+background-color: rgb(222, 79, 126);
+}
+.alert {
+padding: 20px;
+background-color: #f44336;
+color: white;
+opacity: 1;
+transition: opacity 0.6s;
+margin-bottom: 15px;
+display: none;
+font-family: 'Kalam', cursive;
+font-size: 15px;
+
+}
+
+.alert.success {background-color: #04AA6D;}
+
+
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.closebtn:hover {
+color: black;
+}
+
+
